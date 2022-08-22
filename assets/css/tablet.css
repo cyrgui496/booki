@@ -1,0 +1,64 @@
+/* filter */
+
+.filter {
+    margin-top: 10px;
+}
+
+.filter p {
+    display: block;
+}
+
+/* most popular */
+
+.most-popular {
+    width: initial;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.container-card-most-popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-most-popular {
+    width: 30%;
+}
+
+.card-most-popular img {
+    height: 130px;
+}
+
+.title-card-most-popular {
+    height: 100px;
+}
+
+/* accomodations */
+
+.accommodations {
+    margin-right: initial;
+}
+
+/* activities */
+
+.card-activities-type-1 {
+    height: 260px;
+}
+
+.card-activities-type-2 {
+    height: 120px;
+}
+
+.card-activities-type-1 img {
+    height: 200px;
+}
+
+.card-activities-type-2 img {
+    height: 70px;
+}
+
+/* footer */
+
+footer div {
+    width: 37.5%;
+}

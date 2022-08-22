@@ -1,0 +1,178 @@
+/* navbar */
+
+.navbar {
+    display: initial;
+}
+
+.logo img {
+    margin: auto;
+}
+
+.logo img:first-child {
+    display: none;
+}
+
+.logo img:last-child {
+    display: block;
+}
+
+nav {
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #f2f2f2;
+    max-width: 382px;
+    width: 100%;
+    display: block;
+}
+
+nav a:hover {
+    color: #0065fc;
+    border-bottom: 1px solid #0065fc;
+    border-top: initial;
+}
+
+/* search bar */
+
+form {
+    width: 101%;
+}
+
+form div {
+    width: 100%;
+}
+
+input[type="search"] {
+    width: 100%;
+}
+
+form button {
+    border-radius: 10px;
+    position: relative;
+    left: -5px;
+}
+
+form button span {
+    display: none;
+}
+
+button .icon-search {
+    display: initial;
+}
+
+/* filter */
+
+.container-button {
+    flex-wrap: wrap;
+}
+
+.container-button button {
+    margin-bottom: 10px;
+}
+
+/* info */
+
+header p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+/* section */
+
+main section {
+    padding: initial;
+}
+
+/* most popular */
+
+.most-popular {
+    width: initial;
+    border-radius: initial;
+}
+
+.card-most-popular {
+    width: initial;
+}
+
+.card-most-popular img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.container-card-most-popular {
+    flex-direction: column;
+}
+
+/* acccomodations */
+
+.accommodations {
+    background-color: white;
+    border-radius: initial;
+}
+
+.container-card-accommodations {
+    flex-direction: column;
+}
+
+.card-accommodations {
+    width: initial;
+    border: 1px solid #f2f2f2;
+    box-shadow: 2px 2px 2px #f2f2f2;
+}
+
+.card-accommodations img {
+    height: 150px;
+}
+
+/* activities */
+
+.activities {
+    padding: 20px;
+}
+
+.container-card-activities .link-card-activities-type-1 {
+    width: initial;
+    margin-bottom: 20px;
+}
+
+.container-card-activities div {
+    width: initial;
+}
+
+.container-card-activities {
+    flex-direction: column;
+}
+
+.card-activities-type-1 {
+    height: 250px;
+}
+
+.card-activities-type-2 {
+    height: 250px;
+}
+
+.card-activities-type-1 img {
+    height: 200px;
+}
+
+.card-activities-type-2 img {
+    height: 200px;
+}
+
+/* footer */
+
+footer {
+    flex-direction: column;
+}
+
+footer div {
+    width: initial;
+}
