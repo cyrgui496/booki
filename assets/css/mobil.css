@@ -4,8 +4,8 @@
     display: initial;
 }
 
-.logo img {
-    margin: auto;
+.logo {
+    text-align: center;
 }
 
 nav {
