@@ -21,10 +21,6 @@ header {
     height: auto;
 }
 
-.logo img:last-child {
-    display: none;
-}
-
 nav a {
     padding: 20px;
     text-decoration: none;

@@ -8,14 +8,6 @@
     margin: auto;
 }
 
-.logo img:first-child {
-    display: none;
-}
-
-.logo img:last-child {
-    display: block;
-}
-
 nav {
     margin-left: -20px;
     margin-right: -20px;
